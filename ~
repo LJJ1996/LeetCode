@@ -1,0 +1,6 @@
+class Solution {
+public:
+    void reOrderArray(vector<int> &array) {
+        
+    }
+};
