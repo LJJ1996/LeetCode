@@ -1,6 +1,8 @@
-class Solution {
-public:
-    void reOrderArray(vector<int> &array) {
-        
-    }
-};
+#include<iostream>
+using namespace std;
+
+int main(){
+	string a = "111";
+	cout << a << endl;
+	return 0;
+} 

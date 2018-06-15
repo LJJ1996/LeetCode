@@ -19,8 +19,7 @@ public:
             return max(nums[0] , nums[1]);
         }
         sum.push_back(nums[0]);
-        ans = max(nums[0] , nums[1]);
-        sum.push_back(ans);
+        sum.push_back(max(nums[0] , nums[1]));
         for(int i = 2;i < nums.size();i++){
             sum.push_back(nums[i]);
             sum[i] = max(sum[i - 1] , sum[i - 2] + nums[i]);
